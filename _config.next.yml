@@ -1,0 +1,154 @@
+# ===============================================================
+# 黑果小兵风格 - Next 主题配置
+# ===============================================================
+
+# Scheme Settings - 使用 Mist 风格（类似黑果小兵）
+scheme: Mist
+
+# Dark Mode
+darkmode: true
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  about: /about/ || fa fa-user
+
+menu_settings:
+  icons: true
+  badges: true
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+sidebar:
+  position: left
+  width_expanded: 260
+  display: post
+
+# Sidebar Avatar
+avatar:
+  url: /images/avatar.png
+  rounded: true
+  rotated: false
+
+# Social Links
+social:
+  GitHub: https://github.com/mothorror || fab fa-github
+  E-Mail: mailto:ilovedzq@gmail.com || fa fa-envelope
+
+social_icons:
+  enable: true
+  icons_only: false
+  transition: true
+
+# ---------------------------------------------------------------
+# Footer Settings
+# ---------------------------------------------------------------
+footer:
+  since: 2024
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#ff0000"
+  powered: true
+
+# ---------------------------------------------------------------
+# Post Settings
+# ---------------------------------------------------------------
+# Automatically excerpt description in homepage as description text.
+excerpt_description: true
+
+# Display the post meta (visitors, views) in the homepage.
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: false
+  categories: true
+  tags: true
+
+# Post wordcount and reading time.
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  separated_meta: true
+  item_text_post: true
+  item_text_total: false
+  avg_wpm: 300
+
+# Use icon instead of the symbol # to indicate the tag at the bottom of the post
+tag_icon: true
+
+# ---------------------------------------------------------------
+# Follow Me (Social Links in About Page)
+# ---------------------------------------------------------------
+follow_me:
+  GitHub: https://github.com/mothorror || fab fa-github
+  E-Mail: mailto:ilovedzq@gmail.com || fa fa-envelope
+
+# ---------------------------------------------------------------
+# Comments Settings
+# ---------------------------------------------------------------
+comments:
+  active: false
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+open_graph:
+  enable: true
+  options:
+    twitter_card: summary
+    twitter_image: /images/avatar.png
+
+# ---------------------------------------------------------------
+# Post Navigation
+# ---------------------------------------------------------------
+post_navigation:
+  enable: true
+
+# ---------------------------------------------------------------
+# Code Highlight Settings
+# ---------------------------------------------------------------
+codeblock:
+  highlight_theme: night eighties
+  copy_button:
+    enable: true
+    show_result: true
+    style: mac
+
+# ---------------------------------------------------------------
+# Animation Settings
+# ---------------------------------------------------------------
+motion:
+  enable: true
+  async: false
+  transition:
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInDown
+    sidebar: fadeInUp
+
+# ---------------------------------------------------------------
+# Fancybox
+# ---------------------------------------------------------------
+fancybox: true
+
+# ---------------------------------------------------------------
+# MathJax
+# ---------------------------------------------------------------
+math:
+  enable: false
+
+# ---------------------------------------------------------------
+# Pagination Settings
+# ---------------------------------------------------------------
+pagination:
+  value: 5
